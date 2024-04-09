@@ -10,18 +10,18 @@ Welcome to the Web Developer's Toolkit. Your one-stop solution to streamline the
 - 🖱️ Hover Effects: Enhance your UI with beautiful hover effects.
 - 📏 Font Size Adjuster: Increase or decrease font size on the go for accessibility.
 
-## Quick Start 🏁
+# Quick Start 🏁
 
-# Clone the repository
+## Clone the repository
 git clone https://your-repository-link.git
 
-# Navigate to the project directory
+## Navigate to the project directory
 cd your-project-directory
 
-# Install dependencies (if applicable)
+## Install dependencies (if applicable)
 npm install
 
-# Start the project
+## Start the project
 npm start
 How to Use 📘
 To make the most out of the toolkit, refer to the following guides:
@@ -31,20 +31,20 @@ To make the most out of the toolkit, refer to the following guides:
 - Click the 'container' to see its width in the console.
 - Resize the browser window to track viewport dimensions in the console.
 
-## Contributing 💡
+# Contributing 💡
 If you're interested in contributing to the toolkit, we welcome your enthusiasm!
 
-# Fork the Repo
-# Create a new branch for your feature
+## Fork the Repo
+## Create a new branch for your feature
 git checkout -b feature/amazing-feature
 
-# Add your changes
+## Add your changes
 git commit -am 'Add some amazing-feature'
 
-# Push to the Branch
+## Push to the Branch
 git push origin feature/amazing-feature
 
-# Open a Pull Request
+## Open a Pull Request
 License 📝
 This project is licensed under the MIT License - see the LICENSE file for details.
 
