@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Grid Layout</title>
+    <link rel="stylesheet" href="12bool.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button id="dark-mode-toggle" class="dark-mode-button">🌞/🌜</button>
+        <button id="increase-font-size">A+</button>
+        <button id="decrease-font-size">A-</button>
+    </header>
+    <div class="container-words">
+        <div class="col-12">
+            Compiti per casa
+        </div>
+    </div>
+    <div class="container">
+        <!-- Row 1: 10 x 1 col -->
+        <div class="row">
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-1 blue-background">1 col</div>
+        </div>
+
+        <!-- Row 2: 1 x 2 col and 2 x 5 col -->
+        <div class="row">
+            <div class="col-2 blue-background">2 col</div>
+            <div class="col-5 blue-background">5 col</div>
+            <div class="col-5 blue-background">5 col</div>
+        </div>
+
+        <!-- Row 3: Full width column -->
+        <div class="row">
+            <div class="col-12 blue-background">12 col</div>
+        </div>
+
+        <!-- Row 4: 8 col, 2 col, 2 col -->
+        <div class="row">
+            <div class="col-8 blue-background">8 col</div>
+            <div class="col-2 blue-background">2 col</div>
+            <div class="col-2 blue-background">2 col</div>
+        </div>
+
+        <!-- Row 5: 1 col, 2 col, 2 col, 6 col, 1 col -->
+        <div class="row">
+            <div class="col-1 blue-background">1 col</div>
+            <div class="col-2 blue-background">2 col</div>
+            <div class="col-2 blue-background">2 col</div>
+            <div class="col-6 blue-background">6 col</div>
+            <div class="col-1 blue-background">1 col</div>
+        </div>
+
+        <!-- Row 6: Nested columns -->
+        <div class="row">
+            <div class="col-4 blue-background">
+                4 col
+                <div class="row">
+                    <div class="col-6 green-background">Nested 6 col</div>
+                    <div class="col-6 green-background">Nested 6 col</div>
+                </div>
+            </div>
+            <div class="col-4 blue-background">
+                4 col
+                <div class="row">
+                    <div class="col-6 green-background">Nested 6 col</div>
+                    <div class="col-6 green-background">Nested 6 col</div>
+                </div>
+            </div>
+            <div class="col-4 blue-background">4 col</div>
+        </div>
+
+        <div class="container-words">
+            <div class="col-12">
+                Paired columns
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 blue-background">12 col</div>
+            </div>
+
+            <!-- Paired columns with increasing offset and decreasing width -->
+            <div class="row">
+                <div class="col-1 blue-background">1 col</div>
+                <div class="col-11 blue-background">11 col</div>
+            </div>
+            <div class="row">
+                <div class="col-2 blue-background">2 col</div>
+                <div class="col-10 blue-background">10 col</div>
+            </div>
+            <div class="row">
+                <div class="col-3 blue-background">3 col</div>
+                <div class="col-9 blue-background">9 col</div>
+            </div>
+            <div class="row">
+                <div class="col-4 blue-background">4 col</div>
+                <div class="col-8 blue-background">8 col</div>
+            </div>
+            <div class="row">
+                <div class="col-5 blue-background">5 col</div>
+                <div class="col-7 blue-background">7 col</div>
+            </div>
+            <div class="row">
+                <div class="col-6 blue-background">6 col</div>
+                <div class="col-6 blue-background">6 col</div>
+            </div>
+
+            <!-- Label for 'Offset' section -->
+            <div class="container-words">
+                <div class="col-12">
+                    Offset
+                </div>
+            </div>
+
+            <!-- Rows for stepped pattern -->
+            <div class="row">
+                <div class="col-2 blue-background offset-1 content-align">Offset 2 col</div>
+            </div>
+            <div class="row">
+                <div class="col-3 blue-background offset-2 content-align">Offset 3 col</div>
+            </div>
+            <div class="row">
+                <div class="col-4 blue-background offset-3 content-align">Offset 4 col</div>
+            </div>
+            <div class="row">
+                <div class="col-5 blue-background offset-4 content-align">Offset 5 col</div>
+            </div>
+            <div class="row">
+                <div class="col-6 blue-background offset-5 content-align">Offset 6 col</div>
+            </div>
+            <div class="row">
+                <div class="col-7 blue-background offset-6 content-align">Offset 7 col</div>
+            </div>
+            <div class="row">
+                <div class="col-8 blue-background offset-7 content-align">Offset 8 col</div>
+            </div>
+            <div class="row">
+                <div class="col-9 blue-background offset-8 content-align">Offset 9 col</div>
+            </div>
+            <div class="row">
+                <div class="col-10 blue-background offset-9 content-align">Offset 10 col</div>
+            </div>
+            <div class="row">
+                <div class="col-10 blue-background offset-10 content-align">Offset 11 col</div>
+            </div>
+            <div class="row">
+                <div class="col-10 blue-background offset-11 content-align">Offset 12 col</div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
